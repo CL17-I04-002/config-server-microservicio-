@@ -7,8 +7,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/alejandrocalderonhernandez/microservice-configs.git
-          default-label: main
+          uri: https://github.com/CL17-I04-002/microservice-configs.git
+          default-label: master
           clone-on-start: true
 server:
   port: 7777
