@@ -10,6 +10,8 @@ spring:
           uri: https://github.com/CL17-I04-002/microservice-configs.git
           default-label: master
           clone-on-start: true
+          username: CL17-I04-002
+          password: ${GIT_TOKEN}
 server:
   port: 7777
 eureka:
